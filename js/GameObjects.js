@@ -3,7 +3,7 @@ import * as utils from "./utils.js";
 // these are just default; actual sizes are responsive based on screen
 export const CONSTANTS = {
   PARTY_SIZE: 100,
-  VOTER_SIZE: 8,
+  VOTER_SIZE: 6,
   BUDGET_BASE: 20000,
   freeVoterOnBoardMaxCount: 100,
 };
@@ -44,7 +44,7 @@ export function movementAlgoVoter() {
 
 export let VOTER = {
   id: null,
-  color: 0xcc80cc,
+  color: 0xe53935,
   movementAlgo: null,
   moveVector: [0, 0],
   pixiGfx: null,

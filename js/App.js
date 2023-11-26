@@ -484,7 +484,7 @@ export default class App {
     let minDim = Math.min(this.#app.renderer.width, this.#app.renderer.height);
     GameObjects.CONSTANTS.PARTY_SIZE = Math.floor(minDim * 0.08);
     GameObjects.CONSTANTS.VOTER_SIZE = Math.floor(
-      GameObjects.CONSTANTS.PARTY_SIZE * 0.1
+      GameObjects.CONSTANTS.PARTY_SIZE * 0.08
     );
 
     let screenArea = this.#app.renderer.width * this.#app.renderer.height;
@@ -917,7 +917,7 @@ export default class App {
       let newFreeVoter = JSON.parse(JSON.stringify(GameObjects.VOTER));
       let randId = Math.round(utils.seededRandomFloat(9999, 1000));
       newFreeVoter.id = `v-${randId}`;
-      let pixiGfx_purple = pixiGfx.getGfx_voter({
+      let pixiGfx_voter = pixiGfx.getGfx_voter({
         color: newFreeVoter.color,
         size: GameObjects.CONSTANTS.VOTER_SIZE,
       });
@@ -974,8 +974,8 @@ export default class App {
         c++;
       } while (doesIntersect && c < maxC);
 
-      pixiGfx_purple.position.set(posCandidate.x, posCandidate.y);
-      newFreeVoter.pixiGfx = pixiGfx_purple;
+      pixiGfx_voter.position.set(posCandidate.x, posCandidate.y);
+      newFreeVoter.pixiGfx = pixiGfx_voter;
       let moveVec = utils.pol2rect(
         utils.seededRandomFloat(2, 0.6),
         utils.seededRandomFloat(Math.PI * 2, 0)

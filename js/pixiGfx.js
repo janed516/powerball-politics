@@ -46,20 +46,20 @@ const labelStyle = {
 export function getGfx_party(params) {
   let sprCont = new PIXI.Container();
 
-  let outerDotSpr = new PIXI.Graphics();
+  let outerDotBorder = new PIXI.Graphics();
+  outerDotBorder.beginFill(params.color);
+  outerDotBorder.drawCircle(0, 0, params.size);
+  outerDotBorder.endFill();
+  sprCont.addChild(outerDotBorder);
+
+  let outerDotFill = new PIXI.Graphics();
   let colStr = byteToHexStr(params.color);
   let lighterCol = adjust(colStr, 120);
   let colByte = hexStrToByte(lighterCol);
-  outerDotSpr.beginFill(colByte);
-  outerDotSpr.drawCircle(0, 0, params.size);
-  outerDotSpr.endFill();
-  sprCont.addChild(outerDotSpr);
-
-  // let outerWhtCircSpr = new PIXI.Graphics();
-  // outerWhtCircSpr.beginFill(0xffffff);
-  // outerWhtCircSpr.drawCircle(0, 0, params.size - 2);
-  // outerWhtCircSpr.endFill();
-  // sprCont.addChild(outerWhtCircSpr);
+  outerDotFill.beginFill(colByte);
+  outerDotFill.drawCircle(0, 0, params.size - 0.5);
+  outerDotFill.endFill();
+  sprCont.addChild(outerDotFill);
 
   let innerDotSpr = new PIXI.Graphics();
   innerDotSpr.beginFill(params.color);
