@@ -3,6 +3,8 @@ import * as utils from "./utils.js";
 import * as pixiGfx from "./pixiGfx.js";
 import * as GameObjects from "./GameObjects.js";
 
+const LOCAL_STORAGE_KEY_USERPREFS = "GAME_PREFS";
+
 let defaultOpts = {
   debugMode: false,
   gridCellSize: 200,
@@ -260,7 +262,7 @@ export default class App {
   //-----------------------------------------------------------------------------
 
   async readFromUserPrefs() {
-    let str = localStorage.getItem("ORBIT_GAME_PREFS");
+    let str = localStorage.getItem(LOCAL_STORAGE_KEY_USERPREFS);
     if (!str) {
       let tmpUserPrefs = JSON.parse(JSON.stringify(GameObjects.USER_PREFS));
       tmpUserPrefs.userPartyChoice = "purple";
@@ -273,7 +275,7 @@ export default class App {
 
   async writeToUserPrefs() {
     localStorage.setItem(
-      "ORBIT_GAME_PREFS",
+      LOCAL_STORAGE_KEY_USERPREFS,
       JSON.stringify(this.#currentGame.userPrefs)
     );
   }
@@ -284,7 +286,7 @@ export default class App {
   }
 
   async onExitCleanUp() {
-    localStorage.removeItem("ORBIT_GAME_PREFS");
+    localStorage.removeItem(LOCAL_STORAGE_KEY_USERPREFS);
   }
 
   tickIntervalCb;
