@@ -13,35 +13,35 @@ let defaultOpts = {
 
 let startPartyConfig = [
   {
-    color: 0x42a5f5,
-    label: "🦴 Bone Party",
+    color: 0xab47bc,
+    label: "🍇 Grape Party",
   },
   {
-    color: 0xe53935,
+    color: 0xf06292,
     label: "🌸 Flower Party",
   },
   {
-    color: 0x43a047,
+    color: 0x689f38,
     label: "🌵 Cactus Party",
   },
   {
-    color: 0xec407a,
+    color: 0xffa726,
     label: "🧀 Cheese Party",
   },
   {
-    color: 0xffa726,
+    color: 0x64b5f6,
     label: "🦋 Butterfly Party",
   },
   {
-    color: 0x6d4c41,
+    color: 0xff7043,
     label: "🎒 Backpack Party",
   },
   {
-    color: 0x8e24aa,
+    color: 0x8d6e63,
     label: "🥁 Drum Party",
   },
   {
-    color: 0x26a69a,
+    color: 0x546e7a,
     label: "📺 Television Party",
   },
 ];
@@ -528,6 +528,7 @@ export default class App {
       let pixiGfx_party = pixiGfx.getGfx_party({
         color: partyObj.color,
         size: partyObj.size,
+        label: partyObj.label,
       });
 
       // find non-intersecting point for other parties

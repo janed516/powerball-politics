@@ -36,6 +36,12 @@ function hexStrToByte(hexColor) {
 // ---------------------------------------------------
 // RED
 
+const textScaleFactor = 0.4;
+const labelStyle = {
+  align: "center",
+  fontSize: "70px",
+};
+
 // let _params = { size: 40, color: 0xff0000 }
 export function getGfx_party(params) {
   let sprCont = new PIXI.Container();
@@ -49,11 +55,37 @@ export function getGfx_party(params) {
   outerDotSpr.endFill();
   sprCont.addChild(outerDotSpr);
 
+  // let outerWhtCircSpr = new PIXI.Graphics();
+  // outerWhtCircSpr.beginFill(0xffffff);
+  // outerWhtCircSpr.drawCircle(0, 0, params.size - 2);
+  // outerWhtCircSpr.endFill();
+  // sprCont.addChild(outerWhtCircSpr);
+
   let innerDotSpr = new PIXI.Graphics();
   innerDotSpr.beginFill(params.color);
-  innerDotSpr.drawCircle(0, 0, params.size * 0.15);
+  innerDotSpr.drawCircle(0, 0, 22);
   innerDotSpr.endFill();
   sprCont.addChild(innerDotSpr);
+
+  let innerWhtCircSpr = new PIXI.Graphics();
+  innerWhtCircSpr.beginFill(0xffffff);
+  innerWhtCircSpr.drawCircle(0, 0, 20);
+  innerWhtCircSpr.endFill();
+  sprCont.addChild(innerWhtCircSpr);
+
+  // let dropShadowFilter = new PIXI.DropShadowFilter();
+  // dropShadowFilter.color = lighterCol;
+  // dropShadowFilter.alpha = 0.2;
+  // dropShadowFilter.blur = 6;
+  // dropShadowFilter.distance = 20;
+  // innerWhtCircSpr.filters = [dropShadowFilter];
+
+  let partyEmojiIcon = params.label.match(/\p{Emoji}+/gu)[0];
+  let partyEmojiIconTxt = new PIXI.Text(partyEmojiIcon, labelStyle);
+  partyEmojiIconTxt.anchor.set(0.5, 0.5);
+  partyEmojiIconTxt.scale.x = textScaleFactor;
+  partyEmojiIconTxt.scale.y = textScaleFactor;
+  sprCont.addChild(partyEmojiIconTxt);
 
   sprCont.interactive = true;
   sprCont.buttonMode = true;
