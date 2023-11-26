@@ -4,6 +4,7 @@ import * as pixiGfx from "./pixiGfx.js";
 import * as GameObjects from "./GameObjects.js";
 
 const LOCAL_STORAGE_KEY_USERPREFS = "GAME_PREFS";
+const CHEAT_SPEED = 4;
 
 let defaultOpts = {
   debugMode: false,
@@ -387,7 +388,7 @@ export default class App {
 
     if (this.#userPrefs.isCheatMode) {
       // update to speed up things
-      this.#tickSpeed /= 4;
+      this.#tickSpeed /= CHEAT_SPEED;
       this.updateTickInterval.call(this);
     }
 
@@ -667,7 +668,8 @@ export default class App {
 
     await this.refreshFreeVoters();
 
-    this.#currentElapsedTime += this.#tickSpeed;
+    this.#currentElapsedTime +=
+      this.#tickSpeed * (this.#userPrefs.isCheatMode ? CHEAT_SPEED : 1);
     // update scores
     this.#updateUIStats();
 
