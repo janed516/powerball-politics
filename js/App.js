@@ -14,35 +14,35 @@ let defaultOpts = {
 let startPartyConfig = [
   {
     color: 0x42a5f5,
-    label: "blue",
+    label: "🦴 Bone Party",
   },
   {
     color: 0xe53935,
-    label: "red",
+    label: "🌸 Flower Party",
   },
   {
     color: 0x43a047,
-    label: "green",
+    label: "🌵 Cactus Party",
   },
   {
     color: 0xec407a,
-    label: "pink",
+    label: "🧀 Cheese Party",
   },
   {
     color: 0xffa726,
-    label: "orange",
+    label: "🦋 Butterfly Party",
   },
   {
     color: 0x6d4c41,
-    label: "brown",
+    label: "🎒 Backpack Party",
   },
   {
     color: 0x8e24aa,
-    label: "purple",
+    label: "🥁 Drum Party",
   },
   {
     color: 0x26a69a,
-    label: "teal",
+    label: "📺 Television Party",
   },
 ];
 
