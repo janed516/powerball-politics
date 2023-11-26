@@ -51,6 +51,7 @@ const eachRoundLengthInMs = 1000 * 120;
 const USDollar = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD",
+  maximumFractionDigits: 0,
 });
 
 export default class App {
@@ -724,26 +725,26 @@ export default class App {
       this.#refs.div_partyStatContainer.appendChild(div_partyStats);
 
       let div_partyName = document.createElement("div");
-      div_partyName.innerText = p.label;
+      div_partyName.innerHTML = `<b> ${p.label} </b>`;
       div_partyStats.appendChild(div_partyName);
 
       let div_partyVoterCount = document.createElement("div");
-      div_partyVoterCount.innerText = p.orbitingVoters.length;
+      div_partyVoterCount.innerText = `Voters: ${p.orbitingVoters.length}`;
       div_partyStats.appendChild(div_partyVoterCount);
 
-      let div_partyFunds = document.createElement("div");
-      div_partyFunds.innerText = USDollar.format(p.funds);
-      div_partyStats.appendChild(div_partyFunds);
-
       let div_partyPositions = document.createElement("div");
-      div_partyPositions.innerHTML = `${p.campaignPriorities[
-        GameObjects.POLL_TOPIC.billA
-      ].toFixed(2)} <br /> ${p.campaignPriorities[
-        GameObjects.POLL_TOPIC.billB
-      ].toFixed(2)} <br /> ${p.campaignPriorities[
-        GameObjects.POLL_TOPIC.billC
-      ].toFixed(2)}`;
+      div_partyPositions.innerHTML = `Bill A: ${USDollar.format(
+        p.campaignPriorities[GameObjects.POLL_TOPIC.billA] * p.funds
+      )} <br /> Bill B: ${USDollar.format(
+        p.campaignPriorities[GameObjects.POLL_TOPIC.billB] * p.funds
+      )} <br /> Bill C: ${USDollar.format(
+        p.campaignPriorities[GameObjects.POLL_TOPIC.billC] * p.funds
+      )}`;
       div_partyStats.appendChild(div_partyPositions);
+
+      let div_partyFunds = document.createElement("div");
+      div_partyFunds.innerText = `Total: ${USDollar.format(p.funds)}`;
+      div_partyStats.appendChild(div_partyFunds);
     }
 
     // update population stats
