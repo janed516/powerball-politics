@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="styles/fonts.css" />
+  <link rel="stylesheet" href="styles/index.css" />
+  <script src="js/range-slider.main.min.js"></script>
+  <script src="js/pixi@6.5.1.min.js"></script>
+  <title>orbit-game</title>
+</head>
+
+<body>
+
+  <div id="pixiContainer" class="screen-extents"></div>
+
+  <div id="div_topControlsRow">
+    <div id="div_partyStatContainer"></div>
+  </div>
+
+  <div id="div_bottomLeftBox">
+    <button id="btn_reset">🔄</button>
+    <button id="btn_play">▶️</button>
+    <button id="btn_pause">⏸️</button>
+  </div>
+
+  <div id="div_bottomRightBox">
+    <div id="div_elapsedTime">
+      Elapsed time: <span id="span_elapsedTime"></span>
+    </div>
+    <div id="div_supportSeenForBillA">
+      Bill A: <span id="span_supportSeenForBillA"></span>
+    </div>
+    <div id="div_supportSeenForBillB">
+      Bill B: <span id="span_supportSeenForBillB"></span>
+    </div>
+    <div id="div_supportSeenForBillC">
+      Bill C: <span id="span_supportSeenForBillC"></span>
+    </div>
+    <div id="div_totalVoters">
+      Total Voters: <span id="span_totalVoters"></span>
+    </div>
+  </div>
+
+  <div id="controlsPane" class="screen-extents">
+    <div style="display: flex; pointer-events: auto;">
+      <button id="btn_intervenePaneToggle">Intervene</button>
+    </div>
+  </div>
+
+  <div id="div_intervenePane" class="overlay-pane center-float hidden">
+    <div class="vertical-distribute" style="align-items: center; overflow-y: auto;">
+      <h2>
+        Adjust your campaign
+      </h2>
+      <div id="div_interveneControlsContainer"></div>
+    </div>
+  </div>
+
+  <script type="module">
+    import App from "./js/App.js";
+
+    async function main() {
+
+      let app = new App();
+      await app.initialize({
+        debugMode: true,
+        ctrls: [
+          { ctrl: "INTERVENE_PANE_TOGGLE", id: "btn_intervenePaneToggle" },
+          { ctrl: "INTERVENE_PANE", id: "div_intervenePane" },
+          { ctrl: "INTERVENE_CONTROLS_CONTAINER", id: "div_interveneControlsContainer" },
+
+          { ctrl: "GAME_PLAY", id: "btn_play" },
+          { ctrl: "GAME_PAUSE", id: "btn_pause" },
+          { ctrl: "GAME_RESET", id: "btn_reset" },
+
+          // { ctrl: "GAME_SPEEDUP", id: "btn_speedup" },
+          // { ctrl: "GAME_SPEEDDOWN", id: "btn_speeddown" },
+
+          { ctrl: "SCOREBOARD_ELAPSED_TIME", id: "span_elapsedTime" },
+          { ctrl: "SCOREBOARD_PARTY_STATS_CONTAINER", id: "div_partyStatContainer" },
+
+          { ctrl: "SCOREBOARD_SUPPORT_SEEN_A", id: "span_supportSeenForBillA" },
+          { ctrl: "SCOREBOARD_SUPPORT_SEEN_B", id: "span_supportSeenForBillB" },
+          { ctrl: "SCOREBOARD_SUPPORT_SEEN_C", id: "span_supportSeenForBillC" },
+          { ctrl: "SCOREBOARD_TOTAL_VOTERS", id: "span_totalVoters" },
+        ]
+      });
+
+      // ------------------------------------------------
+
+
+    }
+
+    window.addEventListener(
+      "load",
+      () => main(),
+      false
+    );
+
+  </script>
+</body>
+
+</html>

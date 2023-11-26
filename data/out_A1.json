@@ -1,0 +1,2558 @@
+[
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Placed on the Union Calendar, Calendar No. 220."
+    },
+    "number": "5283",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Protecting our Communities from Failure to Secure the Border Act of 2023",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:48Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/5283?format=json",
+    "billData": {
+      "actions": {
+        "count": 16,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/actions?format=json"
+      },
+      "committees": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 16,
+        "countIncludingWithdrawnCosponsors": 16,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/cosponsors?format=json"
+      },
+      "introducedDate": "2023-08-25",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Placed on the Union Calendar, Calendar No. 220."
+      },
+      "number": "5283",
+      "originChamber": "House",
+      "policyArea": {
+        "name": "Immigration"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "M000317",
+          "district": 11,
+          "firstName": "Nicole",
+          "fullName": "Rep. Malliotakis, Nicole [R-NY-11]",
+          "isByRequest": "N",
+          "lastName": "Malliotakis",
+          "party": "R",
+          "state": "NY",
+          "url": "https://api.congress.gov/v3/member/M000317?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/subjects?format=json"
+      },
+      "textVersions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/text?format=json"
+      },
+      "title": "Protecting our Communities from Failure to Secure the Border Act of 2023",
+      "titles": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/5283/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T18:45:48Z",
+      "updateDateIncludingText": "2023-11-18T18:45:48Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "actionTime": "09:11:06",
+      "text": "Held at the desk."
+    },
+    "number": "3000",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "Armenian Protection Act of 2023",
+    "type": "S",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:14:25Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/3000?format=json",
+    "billData": {
+      "actions": {
+        "count": 10,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/actions?format=json"
+      },
+      "amendments": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/amendments?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 8,
+        "countIncludingWithdrawnCosponsors": 8,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/cosponsors?format=json"
+      },
+      "introducedDate": "2023-09-29",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "actionTime": "09:11:06",
+        "text": "Held at the desk."
+      },
+      "number": "3000",
+      "originChamber": "Senate",
+      "policyArea": {
+        "name": "International Affairs"
+      },
+      "relatedBills": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/relatedbills?format=json"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "P000595",
+          "firstName": "Gary",
+          "fullName": "Sen. Peters, Gary C. [D-MI]",
+          "isByRequest": "N",
+          "lastName": "Peters",
+          "party": "D",
+          "state": "MI",
+          "url": "https://api.congress.gov/v3/member/P000595?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/subjects?format=json"
+      },
+      "textVersions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/text?format=json"
+      },
+      "title": "Armenian Protection Act of 2023",
+      "titles": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/s/3000/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-18T08:14:25Z",
+      "updateDateIncludingText": "2023-11-18T08:14:25Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "actionTime": "09:10:53",
+      "text": "Held at the desk."
+    },
+    "number": "1510",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "GAO Inspector General Parity Act",
+    "type": "S",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:14:25Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/1510?format=json",
+    "billData": {
+      "actions": {
+        "count": 12,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/actions?format=json"
+      },
+      "amendments": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/amendments?format=json"
+      },
+      "cboCostEstimates": [
+        {
+          "description": "As ordered reported by the Senate Committee on Homeland Security and Governmental Affairs on May 17, 2023\n",
+          "pubDate": "2023-07-17T19:03:00Z",
+          "title": "S. 1510, GAO Inspector General Parity Act",
+          "url": "https://www.cbo.gov/publication/59383"
+        }
+      ],
+      "committeeReports": [
+        {
+          "citation": "S. Rept. 118-88",
+          "url": "https://api.congress.gov/v3/committee-report/118/SRPT/88?format=json"
+        }
+      ],
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 2,
+        "countIncludingWithdrawnCosponsors": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/cosponsors?format=json"
+      },
+      "introducedDate": "2023-05-10",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "actionTime": "09:10:53",
+        "text": "Held at the desk."
+      },
+      "number": "1510",
+      "originChamber": "Senate",
+      "policyArea": {
+        "name": "Government Operations and Politics"
+      },
+      "relatedBills": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/relatedbills?format=json"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "B001310",
+          "firstName": "Mike",
+          "fullName": "Sen. Braun, Mike [R-IN]",
+          "isByRequest": "N",
+          "lastName": "Braun",
+          "party": "R",
+          "state": "IN",
+          "url": "https://api.congress.gov/v3/member/B001310?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/subjects?format=json"
+      },
+      "textVersions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/text?format=json"
+      },
+      "title": "GAO Inspector General Parity Act",
+      "titles": {
+        "count": 5,
+        "url": "https://api.congress.gov/v3/bill/118/s/1510/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-18T08:14:25Z",
+      "updateDateIncludingText": "2023-11-18T08:14:25Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "actionTime": "09:10:45",
+      "text": "Held at the desk."
+    },
+    "number": "106",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "Commitment to Veteran Support and Outreach Act",
+    "type": "S",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:14:25Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/106?format=json",
+    "billData": {
+      "actions": {
+        "count": 13,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/actions?format=json"
+      },
+      "amendments": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/amendments?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 14,
+        "countIncludingWithdrawnCosponsors": 14,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/cosponsors?format=json"
+      },
+      "introducedDate": "2023-01-26",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "actionTime": "09:10:45",
+        "text": "Held at the desk."
+      },
+      "number": "106",
+      "originChamber": "Senate",
+      "policyArea": {
+        "name": "Armed Forces and National Security"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "B001230",
+          "firstName": "Tammy",
+          "fullName": "Sen. Baldwin, Tammy [D-WI]",
+          "isByRequest": "N",
+          "lastName": "Baldwin",
+          "party": "D",
+          "state": "WI",
+          "url": "https://api.congress.gov/v3/member/B001230?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 14,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/subjects?format=json"
+      },
+      "summaries": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/summaries?format=json"
+      },
+      "textVersions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/text?format=json"
+      },
+      "title": "Commitment to Veteran Support and Outreach Act",
+      "titles": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/s/106/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-18T08:14:25Z",
+      "updateDateIncludingText": "2023-11-18T08:14:25Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Veterans' Affairs."
+    },
+    "number": "6452",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To amend title 38, United States Code, to establish in the Department of Veterans Affairs a Veterans Scam and Fraud Evasion Officer, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6452?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6452/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6452/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 3,
+        "countIncludingWithdrawnCosponsors": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6452/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Veterans' Affairs."
+      },
+      "number": "6452",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "S001196",
+          "district": 21,
+          "firstName": "Elise",
+          "fullName": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "isByRequest": "N",
+          "lastName": "Stefanik",
+          "middleName": "M.",
+          "party": "R",
+          "state": "NY",
+          "url": "https://api.congress.gov/v3/member/S001196?format=json"
+        }
+      ],
+      "title": "To amend title 38, United States Code, to establish in the Department of Veterans Affairs a Veterans Scam and Fraud Evasion Officer, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6452/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Transportation and Infrastructure."
+    },
+    "number": "6448",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To require the Administrator of the Federal Aviation Administration to conduct a study to compare the effects of allowing certain aircraft certified under part 23 of title 14, Code of Federal Regulations, to operate under part 121 of such title, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6448?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6448/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6448/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6448/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "number": "6448",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "M000871",
+          "district": 1,
+          "firstName": "Tracey",
+          "fullName": "Rep. Mann, Tracey [R-KS-1]",
+          "isByRequest": "N",
+          "lastName": "Mann",
+          "party": "R",
+          "state": "KS",
+          "url": "https://api.congress.gov/v3/member/M000871?format=json"
+        }
+      ],
+      "title": "To require the Administrator of the Federal Aviation Administration to conduct a study to compare the effects of allowing certain aircraft certified under part 23 of title 14, Code of Federal Regulations, to operate under part 121 of such title, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6448/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Oversight and Accountability, Ways and Means, Armed Services, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "number": "6453",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To require reports on and impose sanctions with respect to Iran's development of space-launch vehicles, intercontinental ballistic missiles, and unmanned aerial systems, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6453?format=json",
+    "billData": {
+      "actions": {
+        "count": 9,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6453/actions?format=json"
+      },
+      "committees": {
+        "count": 7,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6453/committees?format=json"
+      },
+      "congress": 118,
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committees on the Judiciary, Financial Services, Oversight and Accountability, Ways and Means, Armed Services, and Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "6453",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "S001196",
+          "district": 21,
+          "firstName": "Elise",
+          "fullName": "Rep. Stefanik, Elise M. [R-NY-21]",
+          "isByRequest": "N",
+          "lastName": "Stefanik",
+          "middleName": "M.",
+          "party": "R",
+          "state": "NY",
+          "url": "https://api.congress.gov/v3/member/S001196?format=json"
+        }
+      ],
+      "title": "To require reports on and impose sanctions with respect to Iran's development of space-launch vehicles, intercontinental ballistic missiles, and unmanned aerial systems, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6453/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Transportation and Infrastructure."
+    },
+    "number": "6450",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To provide for a National Disaster Safety Board, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6450?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6450/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6450/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6450/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "number": "6450",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "P000618",
+          "district": 47,
+          "firstName": "Katie",
+          "fullName": "Rep. Porter, Katie [D-CA-47]",
+          "isByRequest": "N",
+          "lastName": "Porter",
+          "party": "D",
+          "state": "CA",
+          "url": "https://api.congress.gov/v3/member/P000618?format=json"
+        }
+      ],
+      "title": "To provide for a National Disaster Safety Board, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6450/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Education and the Workforce."
+    },
+    "number": "876",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Expressing support for a whole child approach to education and recognizing the role of parents, educators, and community members in providing a whole child approach to education for each student.",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:48Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/876?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/876/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/876/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/876/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Education and the Workforce."
+      },
+      "number": "876",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "B001278",
+          "district": 1,
+          "firstName": "Suzanne",
+          "fullName": "Rep. Bonamici, Suzanne [D-OR-1]",
+          "isByRequest": "N",
+          "lastName": "Bonamici",
+          "party": "D",
+          "state": "OR",
+          "url": "https://api.congress.gov/v3/member/B001278?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/876/text?format=json"
+      },
+      "title": "Expressing support for a whole child approach to education and recognizing the role of parents, educators, and community members in providing a whole child approach to education for each student.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/876/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T18:45:48Z",
+      "updateDateIncludingText": "2023-11-18T18:45:48Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "number": "6451",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To amend the Public Health Service Act to authorize grants to States, Indian Tribes, Tribal organizations, and political subdivisions thereof to hire, employ, train, and dispatch mental health professionals to respond in lieu of law enforcement officers in emergencies involving one or more persons with a mental illness or an intellectual or developmental disability, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6451?format=json",
+    "billData": {
+      "actions": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6451/actions?format=json"
+      },
+      "committees": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6451/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 51,
+        "countIncludingWithdrawnCosponsors": 51,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6451/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "6451",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "P000618",
+          "district": 47,
+          "firstName": "Katie",
+          "fullName": "Rep. Porter, Katie [D-CA-47]",
+          "isByRequest": "N",
+          "lastName": "Porter",
+          "party": "D",
+          "state": "CA",
+          "url": "https://api.congress.gov/v3/member/P000618?format=json"
+        }
+      ],
+      "title": "To amend the Public Health Service Act to authorize grants to States, Indian Tribes, Tribal organizations, and political subdivisions thereof to hire, employ, train, and dispatch mental health professionals to respond in lieu of law enforcement officers in emergencies involving one or more persons with a mental illness or an intellectual or developmental disability, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6451/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "number": "6456",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To direct the National Institute of Justice to collect, study, and analyze data on incidents in which children have been seriously harmed or killed by law enforcement officers who were acting in their capacity as law enforcement officers.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:37Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6456?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6456/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6456/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 26,
+        "countIncludingWithdrawnCosponsors": 26,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6456/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": "6456",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "W000187",
+          "district": 43,
+          "firstName": "MAXINE",
+          "fullName": "Rep. Waters, Maxine [D-CA-43]",
+          "isByRequest": "N",
+          "lastName": "WATERS",
+          "party": "D",
+          "state": "CA",
+          "url": "https://api.congress.gov/v3/member/W000187?format=json"
+        }
+      ],
+      "title": "To direct the National Institute of Justice to collect, study, and analyze data on incidents in which children have been seriously harmed or killed by law enforcement officers who were acting in their capacity as law enforcement officers.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6456/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:37Z",
+      "updateDateIncludingText": "2023-11-18T08:15:37Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "number": "6445",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To amend title XVIII of the Social Security Act to improve coverage of audiology services under the Medicare program, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6445?format=json",
+    "billData": {
+      "actions": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6445/actions?format=json"
+      },
+      "committees": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6445/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 13,
+        "countIncludingWithdrawnCosponsors": 13,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6445/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "6445",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "B001257",
+          "district": 12,
+          "firstName": "Gus",
+          "fullName": "Rep. Bilirakis, Gus M. [R-FL-12]",
+          "isByRequest": "N",
+          "lastName": "Bilirakis",
+          "middleName": "M.",
+          "party": "R",
+          "state": "FL",
+          "url": "https://api.congress.gov/v3/member/B001257?format=json"
+        }
+      ],
+      "title": "To amend title XVIII of the Social Security Act to improve coverage of audiology services under the Medicare program, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6445/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Ways and Means."
+    },
+    "number": "6454",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To amend the Internal Revenue Code of 1986 to repeal the excise taxes on taxable chemicals and taxable substances.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:37Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6454?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6454/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6454/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 2,
+        "countIncludingWithdrawnCosponsors": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6454/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "6454",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "V000134",
+          "district": 24,
+          "firstName": "Beth",
+          "fullName": "Rep. Van Duyne, Beth [R-TX-24]",
+          "isByRequest": "N",
+          "lastName": "Van Duyne",
+          "party": "R",
+          "state": "TX",
+          "url": "https://api.congress.gov/v3/member/V000134?format=json"
+        }
+      ],
+      "title": "To amend the Internal Revenue Code of 1986 to repeal the excise taxes on taxable chemicals and taxable substances.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6454/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:37Z",
+      "updateDateIncludingText": "2023-11-18T08:15:37Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Education and the Workforce."
+    },
+    "number": "875",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:48Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/875?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/875/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/875/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 28,
+        "countIncludingWithdrawnCosponsors": 28,
+        "url": "https://api.congress.gov/v3/bill/118/hres/875/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Education and the Workforce."
+      },
+      "number": "875",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "A000055",
+          "district": 4,
+          "firstName": "ROBERT",
+          "fullName": "Rep. Aderholt, Robert B. [R-AL-4]",
+          "isByRequest": "N",
+          "lastName": "ADERHOLT",
+          "middleName": "B.",
+          "party": "R",
+          "state": "AL",
+          "url": "https://api.congress.gov/v3/member/A000055?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/875/text?format=json"
+      },
+      "title": "Expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/875/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T18:45:48Z",
+      "updateDateIncludingText": "2023-11-18T18:45:48Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on the Judiciary."
+    },
+    "number": "879",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Expressing support for the designation of November 20, 2023, through December 20, 2023, as \"National Survivors of Homicide Victims Awareness Month\".",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T19:00:46Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/879?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/879/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/879/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 9,
+        "countIncludingWithdrawnCosponsors": 9,
+        "url": "https://api.congress.gov/v3/bill/118/hres/879/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": "879",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "P000617",
+          "district": 7,
+          "firstName": "Ayanna",
+          "fullName": "Rep. Pressley, Ayanna [D-MA-7]",
+          "isByRequest": "N",
+          "lastName": "Pressley",
+          "party": "D",
+          "state": "MA",
+          "url": "https://api.congress.gov/v3/member/P000617?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/879/text?format=json"
+      },
+      "title": "Expressing support for the designation of November 20, 2023, through December 20, 2023, as \"National Survivors of Homicide Victims Awareness Month\".",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/879/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T19:00:46Z",
+      "updateDateIncludingText": "2023-11-18T19:00:46Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Education and the Workforce."
+    },
+    "number": "77",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Expressing support for the designation of the week of November 13 through November 19, 2023, as \"National Caregiving Youth Week\" to raise awareness and encourage national recognition of children and adolescents under 18 years of age who serve as a primary or secondary caregiver for family or household members.",
+    "type": "HCONRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:47Z",
+    "url": "https://api.congress.gov/v3/bill/118/hconres/77?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hconres/77/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hconres/77/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 6,
+        "countIncludingWithdrawnCosponsors": 6,
+        "url": "https://api.congress.gov/v3/bill/118/hconres/77/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Education and the Workforce."
+      },
+      "number": "77",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "F000462",
+          "district": 22,
+          "firstName": "Lois",
+          "fullName": "Rep. Frankel, Lois [D-FL-22]",
+          "isByRequest": "N",
+          "lastName": "Frankel",
+          "party": "D",
+          "state": "FL",
+          "url": "https://api.congress.gov/v3/member/F000462?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hconres/77/text?format=json"
+      },
+      "title": "Expressing support for the designation of the week of November 13 through November 19, 2023, as \"National Caregiving Youth Week\" to raise awareness and encourage national recognition of children and adolescents under 18 years of age who serve as a primary or secondary caregiver for family or household members.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hconres/77/titles?format=json"
+      },
+      "type": "HCONRES",
+      "updateDate": "2023-11-18T18:45:47Z",
+      "updateDateIncludingText": "2023-11-18T18:45:47Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Ethics."
+    },
+    "number": "878",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Providing for the expulsion of Representative George Santos from the United States House of Representatives.",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:48Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/878?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/878/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/878/committees?format=json"
+      },
+      "congress": 118,
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Ethics."
+      },
+      "number": "878",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "G000591",
+          "district": 3,
+          "firstName": "Michael",
+          "fullName": "Rep. Guest, Michael [R-MS-3]",
+          "isByRequest": "N",
+          "lastName": "Guest",
+          "party": "R",
+          "state": "MS",
+          "url": "https://api.congress.gov/v3/member/G000591?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/878/text?format=json"
+      },
+      "title": "Providing for the expulsion of Representative George Santos from the United States House of Representatives.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/878/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T18:45:48Z",
+      "updateDateIncludingText": "2023-11-18T18:45:48Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "number": "6455",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To establish the Global Climate Change Resilience Strategy, to authorize the admission of climate-displaced persons into the United States, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:37Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6455?format=json",
+    "billData": {
+      "actions": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6455/actions?format=json"
+      },
+      "committees": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6455/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 4,
+        "countIncludingWithdrawnCosponsors": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6455/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the Committee on Foreign Affairs, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "6455",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "V000081",
+          "district": 7,
+          "firstName": "NYDIA",
+          "fullName": "Rep. Velazquez, Nydia M. [D-NY-7]",
+          "isByRequest": "N",
+          "lastName": "VELAZQUEZ",
+          "middleName": "M.",
+          "party": "D",
+          "state": "NY",
+          "url": "https://api.congress.gov/v3/member/V000081?format=json"
+        }
+      ],
+      "title": "To establish the Global Climate Change Resilience Strategy, to authorize the admission of climate-displaced persons into the United States, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6455/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:37Z",
+      "updateDateIncludingText": "2023-11-18T08:15:37Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Oversight and Accountability."
+    },
+    "number": "877",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Condemning Mayor Muriel Bowser, Council Chair Phil Mendelson, Councilman Charles Allen, and the rest of the government of the city of Washington, DC, for their failure to stop the crime epidemic plaguing their city.",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:47Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/877?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/877/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/877/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 9,
+        "countIncludingWithdrawnCosponsors": 9,
+        "url": "https://api.congress.gov/v3/bill/118/hres/877/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Oversight and Accountability."
+      },
+      "number": "877",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "C001129",
+          "district": 10,
+          "firstName": "Mike",
+          "fullName": "Rep. Collins, Mike [R-GA-10]",
+          "isByRequest": "N",
+          "lastName": "Collins",
+          "party": "R",
+          "state": "GA",
+          "url": "https://api.congress.gov/v3/member/C001129?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/877/text?format=json"
+      },
+      "title": "Condemning Mayor Muriel Bowser, Council Chair Phil Mendelson, Councilman Charles Allen, and the rest of the government of the city of Washington, DC, for their failure to stop the crime epidemic plaguing their city.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/877/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T18:45:47Z",
+      "updateDateIncludingText": "2023-11-18T18:45:47Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Agriculture."
+    },
+    "number": "6449",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To amend the Department of Agriculture Reorganization Act of 1994 to reauthorize the Office of Urban Agriculture and Innovative Production.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6449?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6449/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6449/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 2,
+        "countIncludingWithdrawnCosponsors": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6449/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": "6449",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "M001226",
+          "district": 8,
+          "firstName": "Robert",
+          "fullName": "Rep. Menendez, Robert [D-NJ-8]",
+          "isByRequest": "N",
+          "lastName": "Menendez",
+          "party": "D",
+          "state": "NJ",
+          "url": "https://api.congress.gov/v3/member/M001226?format=json"
+        }
+      ],
+      "title": "To amend the Department of Agriculture Reorganization Act of 1994 to reauthorize the Office of Urban Agriculture and Innovative Production.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6449/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Foreign Affairs."
+    },
+    "number": "880",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Supporting the continued work of the Millennium Challenge Corporation as it celebrates the 20th anniversary of its creation.",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T19:00:46Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/880?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/880/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/880/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/880/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Foreign Affairs."
+      },
+      "number": "880",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "S000510",
+          "district": 9,
+          "firstName": "ADAM",
+          "fullName": "Rep. Smith, Adam [D-WA-9]",
+          "isByRequest": "N",
+          "lastName": "SMITH",
+          "party": "D",
+          "state": "WA",
+          "url": "https://api.congress.gov/v3/member/S000510?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/880/text?format=json"
+      },
+      "title": "Supporting the continued work of the Millennium Challenge Corporation as it celebrates the 20th anniversary of its creation.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/880/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T19:00:46Z",
+      "updateDateIncludingText": "2023-11-18T19:00:46Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Natural Resources."
+    },
+    "number": "6443",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To take certain land in the State of California into trust for the benefit of the Jamul Indian Village of California Tribe, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6443?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6443/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6443/committees?format=json"
+      },
+      "congress": 118,
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "number": "6443",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "I000056",
+          "district": 48,
+          "firstName": "DARRELL",
+          "fullName": "Rep. Issa, Darrell E. [R-CA-48]",
+          "isByRequest": "N",
+          "lastName": "ISSA",
+          "middleName": "E.",
+          "party": "R",
+          "state": "CA",
+          "url": "https://api.congress.gov/v3/member/I000056?format=json"
+        }
+      ],
+      "title": "To take certain land in the State of California into trust for the benefit of the Jamul Indian Village of California Tribe, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6443/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Armed Services."
+    },
+    "number": "6444",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To accelerate the identification of solutions to the challenges of the Joint Force by assigning to specific components of the Department of Defense certain responsibilities for the delivery of essential integrated joint warfighting capabilities, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6444?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6444/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6444/committees?format=json"
+      },
+      "congress": 118,
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": "6444",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "I000056",
+          "district": 48,
+          "firstName": "DARRELL",
+          "fullName": "Rep. Issa, Darrell E. [R-CA-48]",
+          "isByRequest": "N",
+          "lastName": "ISSA",
+          "middleName": "E.",
+          "party": "R",
+          "state": "CA",
+          "url": "https://api.congress.gov/v3/member/I000056?format=json"
+        }
+      ],
+      "title": "To accelerate the identification of solutions to the challenges of the Joint Force by assigning to specific components of the Department of Defense certain responsibilities for the delivery of essential integrated joint warfighting capabilities, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6444/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Transportation and Infrastructure."
+    },
+    "number": "6446",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To require the Administrator of the Federal Aviation Administration to establish an education program on unleaded aviation gasoline, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6446?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6446/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6446/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 12,
+        "countIncludingWithdrawnCosponsors": 12,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6446/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Transportation and Infrastructure."
+      },
+      "number": "6446",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "C001090",
+          "district": 8,
+          "firstName": "Matt",
+          "fullName": "Rep. Cartwright, Matt [D-PA-8]",
+          "isByRequest": "N",
+          "lastName": "Cartwright",
+          "party": "D",
+          "state": "PA",
+          "url": "https://api.congress.gov/v3/member/C001090?format=json"
+        }
+      ],
+      "title": "To require the Administrator of the Federal Aviation Administration to establish an education program on unleaded aviation gasoline, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6446/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Energy and Commerce."
+    },
+    "number": "874",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Expressing support for the designation of \"Prematurity Awareness Month\".",
+    "type": "HRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T18:45:47Z",
+    "url": "https://api.congress.gov/v3/bill/118/hres/874?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hres/874/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/874/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 5,
+        "countIncludingWithdrawnCosponsors": 5,
+        "url": "https://api.congress.gov/v3/bill/118/hres/874/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "874",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "M001227",
+          "district": 4,
+          "firstName": "Jennifer",
+          "fullName": "Rep. McClellan, Jennifer L. [D-VA-4]",
+          "isByRequest": "N",
+          "lastName": "McClellan",
+          "middleName": "L.",
+          "party": "D",
+          "state": "VA",
+          "url": "https://api.congress.gov/v3/member/M001227?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hres/874/text?format=json"
+      },
+      "title": "Expressing support for the designation of \"Prematurity Awareness Month\".",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hres/874/titles?format=json"
+      },
+      "type": "HRES",
+      "updateDate": "2023-11-18T18:45:47Z",
+      "updateDateIncludingText": "2023-11-18T18:45:47Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+    },
+    "number": "6447",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To prohibit certain actions with respect to certain marine reef species, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:36Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6447?format=json",
+    "billData": {
+      "actions": {
+        "count": 5,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6447/actions?format=json"
+      },
+      "committees": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6447/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6447/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committees on Ways and Means, and Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "6447",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "C001055",
+          "district": 1,
+          "firstName": "Ed",
+          "fullName": "Rep. Case, Ed [D-HI-1]",
+          "isByRequest": "N",
+          "lastName": "Case",
+          "party": "D",
+          "state": "HI",
+          "url": "https://api.congress.gov/v3/member/C001055?format=json"
+        }
+      ],
+      "title": "To prohibit certain actions with respect to certain marine reef species, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6447/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:36Z",
+      "updateDateIncludingText": "2023-11-18T08:15:36Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-17",
+      "text": "Referred to the House Committee on Small Business."
+    },
+    "number": "6457",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "To require the Administrator of the Small Business Administration to establish a grant program to create or expand programs at minority-serving institutions relating to minority entrepreneurship and business ownership, and for other purposes.",
+    "type": "HR",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T08:15:37Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6457?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6457/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6457/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 4,
+        "countIncludingWithdrawnCosponsors": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6457/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-17",
+      "latestAction": {
+        "actionDate": "2023-11-17",
+        "text": "Referred to the House Committee on Small Business."
+      },
+      "number": "6457",
+      "originChamber": "House",
+      "sponsors": [
+        {
+          "bioguideId": "W000788",
+          "district": 5,
+          "firstName": "Nikema",
+          "fullName": "Rep. Williams, Nikema [D-GA-5]",
+          "isByRequest": "N",
+          "lastName": "Williams",
+          "party": "D",
+          "state": "GA",
+          "url": "https://api.congress.gov/v3/member/W000788?format=json"
+        }
+      ],
+      "title": "To require the Administrator of the Small Business Administration to establish a grant program to create or expand programs at minority-serving institutions relating to minority entrepreneurship and business ownership, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6457/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-18T08:15:37Z",
+      "updateDateIncludingText": "2023-11-18T08:15:37Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Signed by President."
+    },
+    "number": "6363",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "Further Continuing Appropriations and Other Extensions Act, 2024",
+    "type": "HR",
+    "updateDate": "2023-11-17",
+    "updateDateIncludingText": "2023-11-17T14:32:29Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/6363?format=json",
+    "billData": {
+      "actions": {
+        "count": 26,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/actions?format=json"
+      },
+      "amendments": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/amendments?format=json"
+      },
+      "cboCostEstimates": [
+        {
+          "description": "As posted on the website of the House Committee on Rules on November 11, 2023\nhttps://rules.house.gov/bill/118/hr-cr\n",
+          "pubDate": "2023-11-13T19:44:00Z",
+          "title": "H.R. 6363, Further Continuing Appropriations and Other Extensions Act, 2024",
+          "url": "https://www.cbo.gov/publication/59755"
+        }
+      ],
+      "committees": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/committees?format=json"
+      },
+      "congress": 118,
+      "introducedDate": "2023-11-13",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Signed by President."
+      },
+      "number": "6363",
+      "originChamber": "House",
+      "policyArea": {
+        "name": "Economics and Public Finance"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "G000377",
+          "district": 12,
+          "firstName": "KAY",
+          "fullName": "Rep. Granger, Kay [R-TX-12]",
+          "isByRequest": "N",
+          "lastName": "GRANGER",
+          "party": "R",
+          "state": "TX",
+          "url": "https://api.congress.gov/v3/member/G000377?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/subjects?format=json"
+      },
+      "summaries": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/summaries?format=json"
+      },
+      "textVersions": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/text?format=json"
+      },
+      "title": "Further Continuing Appropriations and Other Extensions Act, 2024",
+      "titles": {
+        "count": 4,
+        "url": "https://api.congress.gov/v3/bill/118/hr/6363/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-17T14:32:29Z",
+      "updateDateIncludingText": "2023-11-17T14:32:29Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Introduced in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+    },
+    "number": "3343",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A bill to provide that United States citizens evacuating Israel shall not be required to reimburse the United States Government, and for other purposes.",
+    "type": "S",
+    "updateDate": "2023-11-16",
+    "updateDateIncludingText": "2023-11-16T09:46:34Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/3343?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3343/actions?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3343/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-16",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Introduced in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+      },
+      "number": "3343",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "B001243",
+          "firstName": "Marsha",
+          "fullName": "Sen. Blackburn, Marsha [R-TN]",
+          "isByRequest": "N",
+          "lastName": "Blackburn",
+          "party": "R",
+          "state": "TN",
+          "url": "https://api.congress.gov/v3/member/B001243?format=json"
+        }
+      ],
+      "title": "A bill to provide that United States citizens evacuating Israel shall not be required to reimburse the United States Government, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3343/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-16T09:46:34Z",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5554)"
+    },
+    "number": "471",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T04:29:25Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/471?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/sres/471/actions?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 39,
+        "countIncludingWithdrawnCosponsors": 39,
+        "url": "https://api.congress.gov/v3/bill/118/sres/471/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-16",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5554)"
+      },
+      "number": "471",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "K000367",
+          "firstName": "Amy",
+          "fullName": "Sen. Klobuchar, Amy [D-MN]",
+          "isByRequest": "N",
+          "lastName": "Klobuchar",
+          "party": "D",
+          "state": "MN",
+          "url": "https://api.congress.gov/v3/member/K000367?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/471/text?format=json"
+      },
+      "title": "A resolution expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/471/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-17T15:28:58Z",
+      "updateDateIncludingText": "2023-11-18T04:29:25Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553-5554)"
+    },
+    "number": "470",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution designating November 16th, 2023, as \"National Rural Health Day\".",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T04:29:25Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/470?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/sres/470/actions?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 26,
+        "countIncludingWithdrawnCosponsors": 26,
+        "url": "https://api.congress.gov/v3/bill/118/sres/470/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-16",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553-5554)"
+      },
+      "number": "470",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "B001261",
+          "firstName": "John",
+          "fullName": "Sen. Barrasso, John [R-WY]",
+          "isByRequest": "N",
+          "lastName": "Barrasso",
+          "party": "R",
+          "state": "WY",
+          "url": "https://api.congress.gov/v3/member/B001261?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/470/text?format=json"
+      },
+      "title": "A resolution designating November 16th, 2023, as \"National Rural Health Day\".",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/470/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-17T15:28:58Z",
+      "updateDateIncludingText": "2023-11-18T04:29:25Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+    },
+    "number": "469",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution commending and congratulating the Las Vegas Aces basketball team on winning the 2023 Women's National Basketball Association Championship.",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T04:29:23Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/469?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/sres/469/actions?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/469/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-16",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+      },
+      "number": "469",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "C001113",
+          "firstName": "Catherine",
+          "fullName": "Sen. Cortez Masto, Catherine [D-NV]",
+          "isByRequest": "N",
+          "lastName": "Cortez Masto",
+          "party": "D",
+          "state": "NV",
+          "url": "https://api.congress.gov/v3/member/C001113?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/469/text?format=json"
+      },
+      "title": "A resolution commending and congratulating the Las Vegas Aces basketball team on winning the 2023 Women's National Basketball Association Championship.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/469/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-17T15:28:58Z",
+      "updateDateIncludingText": "2023-11-18T04:29:23Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-16",
+      "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+    },
+    "number": "468",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution designating November 26, 2023, as \"Drive Safer Sunday\".",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T04:29:22Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/468?format=json",
+    "billData": {
+      "actions": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/sres/468/actions?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/468/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-16",
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+      },
+      "number": "468",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "W000790",
+          "firstName": "Raphael",
+          "fullName": "Sen. Warnock, Raphael G. [D-GA]",
+          "isByRequest": "N",
+          "lastName": "Warnock",
+          "party": "D",
+          "state": "GA",
+          "url": "https://api.congress.gov/v3/member/W000790?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/468/text?format=json"
+      },
+      "title": "A resolution designating November 26, 2023, as \"Drive Safer Sunday\".",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/468/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-17T15:28:58Z",
+      "updateDateIncludingText": "2023-11-18T04:29:22Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Senate appointed conferees. Reed; Shaheen; Gillibrand; Blumenthal; Hirono; Kaine; King; Warren; Peters; Manchin; Duckworth; Rosen; Kelly; Wicker; Fischer; Cotton; Rounds; Ernst; Sullivan; Cramer; Scott FL; Tuberville; Mullin; Budd; Schmitt."
+    },
+    "number": "2670",
+    "originChamber": "House",
+    "originChamberCode": "H",
+    "title": "National Defense Authorization Act for Fiscal Year 2024",
+    "type": "HR",
+    "updateDate": "2023-11-17",
+    "updateDateIncludingText": "2023-11-17T14:58:59Z",
+    "url": "https://api.congress.gov/v3/bill/118/hr/2670?format=json",
+    "billData": {
+      "actions": {
+        "count": 202,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/actions?format=json"
+      },
+      "amendments": {
+        "count": 42,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/amendments?format=json"
+      },
+      "cboCostEstimates": [
+        {
+          "description": "Letter to the Honorable Mike Rogers\n",
+          "pubDate": "2023-06-28T17:34:00Z",
+          "title": "Direct Spending and Revenue Effects of H.R. 2670, the National Defense Authorization Act for Fiscal Year 2024",
+          "url": "https://www.cbo.gov/publication/59329"
+        },
+        {
+          "description": "As reported by the House Committee on Armed Services on June 30, 2023\n",
+          "pubDate": "2023-07-10T21:35:00Z",
+          "title": "H.R. 2670, the National Defense Authorization Act for Fiscal Year 2024",
+          "url": "https://www.cbo.gov/publication/59356"
+        },
+        {
+          "description": "As passed by the House of Representatives on July 14, 2023\n",
+          "pubDate": "2023-10-06T18:22:00Z",
+          "title": "Estimated Changes in Direct Spending and Revenues of H.R. 2670, the National Defense Authorization Act for Fiscal Year 2024",
+          "url": "https://www.cbo.gov/publication/59637"
+        },
+        {
+          "description": "As passed by the House of Representatives on July 14, 2023\n",
+          "pubDate": "2023-10-06T18:22:00Z",
+          "title": "Estimated Changes in Direct Spending and Revenues of H.R. 2670, the National Defense Authorization Act for Fiscal Year 2024 ",
+          "url": "https://www.cbo.gov/publication/59637"
+        }
+      ],
+      "committeeReports": [
+        {
+          "citation": "H. Rept. 118-125",
+          "url": "https://api.congress.gov/v3/committee-report/118/HRPT/125?format=json"
+        }
+      ],
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/committees?format=json"
+      },
+      "congress": 118,
+      "constitutionalAuthorityStatementText": "<pre>\n[Congressional Record Volume 169, Number 64 (Tuesday, April 18, 2023)]\n[House]\nFrom the Congressional Record Online through the Government Publishing Office [<a href=\"https://www.gpo.gov\">www.gpo.gov</a>]\nBy Mr. ROGERS of Alabama:\nH.R. 2670.\nCongress has the power to enact this legislation pursuant\nto the following:\nclause 1, clause 12, clause 13, and clause 14 of section 8\nof article I of the Constitution.\nThe single subject of this legislation is:\nnational defense.\n[Page H1846]\n</pre>",
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/cosponsors?format=json"
+      },
+      "introducedDate": "2023-04-18",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Senate appointed conferees. Reed; Shaheen; Gillibrand; Blumenthal; Hirono; Kaine; King; Warren; Peters; Manchin; Duckworth; Rosen; Kelly; Wicker; Fischer; Cotton; Rounds; Ernst; Sullivan; Cramer; Scott FL; Tuberville; Mullin; Budd; Schmitt."
+      },
+      "number": "2670",
+      "originChamber": "House",
+      "policyArea": {
+        "name": "Armed Forces and National Security"
+      },
+      "relatedBills": {
+        "count": 168,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/relatedbills?format=json"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "R000575",
+          "district": 3,
+          "firstName": "Mike",
+          "fullName": "Rep. Rogers, Mike D. [R-AL-3]",
+          "isByRequest": "N",
+          "lastName": "Rogers",
+          "party": "R",
+          "state": "AL",
+          "url": "https://api.congress.gov/v3/member/R000575?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 202,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/subjects?format=json"
+      },
+      "summaries": {
+        "count": 3,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/summaries?format=json"
+      },
+      "textVersions": {
+        "count": 5,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/text?format=json"
+      },
+      "title": "National Defense Authorization Act for Fiscal Year 2024",
+      "titles": {
+        "count": 11,
+        "url": "https://api.congress.gov/v3/bill/118/hr/2670/titles?format=json"
+      },
+      "type": "HR",
+      "updateDate": "2023-11-17T14:58:59Z",
+      "updateDateIncludingText": "2023-11-17T14:58:59Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Referred to the Committee on the Judiciary. (text: CR S5552-5553)"
+    },
+    "number": "467",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution recognizing the first commemoration of the anti-LGBTQ+ attack that occurred on November 19-20, 2022, at Club Q, an LGBTQ+ bar in Colorado Springs, Colorado.",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T14:31:08Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/467?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/467/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/467/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/467/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-15",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Referred to the Committee on the Judiciary. (text: CR S5552-5553)"
+      },
+      "number": "467",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "B001267",
+          "firstName": "Michael",
+          "fullName": "Sen. Bennet, Michael F. [D-CO]",
+          "isByRequest": "N",
+          "lastName": "Bennet",
+          "party": "D",
+          "state": "CO",
+          "url": "https://api.congress.gov/v3/member/B001267?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/467/text?format=json"
+      },
+      "title": "A resolution recognizing the first commemoration of the anti-LGBTQ+ attack that occurred on November 19-20, 2022, at Club Q, an LGBTQ+ bar in Colorado Springs, Colorado.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/467/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-18T14:31:08Z",
+      "updateDateIncludingText": "2023-11-18T14:31:08Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Failed of passage in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 310."
+    },
+    "number": "43",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Improving Income Driven Repayment for the William D. Ford Federal Direct Loan Program and the Federal Family Education Loan (FFEL) Program\".",
+    "type": "SJRES",
+    "updateDate": "2023-11-17",
+    "updateDateIncludingText": "2023-11-17T14:28:51Z",
+    "url": "https://api.congress.gov/v3/bill/118/sjres/43?format=json",
+    "billData": {
+      "actions": {
+        "count": 8,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 36,
+        "countIncludingWithdrawnCosponsors": 36,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/cosponsors?format=json"
+      },
+      "introducedDate": "2023-09-05",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Failed of passage in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 310."
+      },
+      "number": "43",
+      "originChamber": "Senate",
+      "policyArea": {
+        "name": "Education"
+      },
+      "relatedBills": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/relatedbills?format=json"
+      },
+      "sponsors": [
+        {
+          "bioguideId": "C001075",
+          "firstName": "Bill",
+          "fullName": "Sen. Cassidy, Bill [R-LA]",
+          "isByRequest": "N",
+          "lastName": "Cassidy",
+          "party": "R",
+          "state": "LA",
+          "url": "https://api.congress.gov/v3/member/C001075?format=json"
+        }
+      ],
+      "subjects": {
+        "count": 6,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/subjects?format=json"
+      },
+      "summaries": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/summaries?format=json"
+      },
+      "textVersions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/text?format=json"
+      },
+      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Improving Income Driven Repayment for the William D. Ford Federal Direct Loan Program and the Federal Family Education Loan (FFEL) Program\".",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sjres/43/titles?format=json"
+      },
+      "type": "SJRES",
+      "updateDate": "2023-11-17T14:28:51Z",
+      "updateDateIncludingText": "2023-11-17T14:28:51Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Referred to the Committee on Foreign Relations. (text: CR S5551-5552)"
+    },
+    "number": "466",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A resolution calling upon the United States Senate to give its advice and consent to the ratification of the United Nations Convention on the Law of the Sea.",
+    "type": "SRES",
+    "updateDate": "2023-11-18",
+    "updateDateIncludingText": "2023-11-18T14:31:08Z",
+    "url": "https://api.congress.gov/v3/bill/118/sres/466?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/466/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/466/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 7,
+        "countIncludingWithdrawnCosponsors": 7,
+        "url": "https://api.congress.gov/v3/bill/118/sres/466/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-15",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Referred to the Committee on Foreign Relations. (text: CR S5551-5552)"
+      },
+      "number": "466",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "H001042",
+          "firstName": "Mazie",
+          "fullName": "Sen. Hirono, Mazie K. [D-HI]",
+          "isByRequest": "N",
+          "lastName": "Hirono",
+          "middleName": "K.",
+          "party": "D",
+          "state": "HI",
+          "url": "https://api.congress.gov/v3/member/H001042?format=json"
+        }
+      ],
+      "textVersions": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/sres/466/text?format=json"
+      },
+      "title": "A resolution calling upon the United States Senate to give its advice and consent to the ratification of the United Nations Convention on the Law of the Sea.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/sres/466/titles?format=json"
+      },
+      "type": "SRES",
+      "updateDate": "2023-11-18T14:31:08Z",
+      "updateDateIncludingText": "2023-11-18T14:31:08Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+    },
+    "number": "3342",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A bill to establish the Commercial Space Activity Advisory Committee, and for other purposes.",
+    "type": "S",
+    "updateDate": "2023-11-16",
+    "updateDateIncludingText": "2023-11-16T09:46:34Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/3342?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3342/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3342/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 1,
+        "countIncludingWithdrawnCosponsors": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3342/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-15",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "3342",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "P000595",
+          "firstName": "Gary",
+          "fullName": "Sen. Peters, Gary C. [D-MI]",
+          "isByRequest": "N",
+          "lastName": "Peters",
+          "party": "D",
+          "state": "MI",
+          "url": "https://api.congress.gov/v3/member/P000595?format=json"
+        }
+      ],
+      "title": "A bill to establish the Commercial Space Activity Advisory Committee, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3342/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-16T09:46:34Z",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Read twice and referred to the Committee on Veterans' Affairs."
+    },
+    "number": "3341",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A bill to improve the emergency management capabilities of the Department of Veterans Affairs, and for other purposes.",
+    "type": "S",
+    "updateDate": "2023-11-16",
+    "updateDateIncludingText": "2023-11-16T09:46:34Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/3341?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3341/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3341/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 2,
+        "countIncludingWithdrawnCosponsors": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3341/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-15",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": "3341",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "T000464",
+          "firstName": "Jon",
+          "fullName": "Sen. Tester, Jon [D-MT]",
+          "isByRequest": "N",
+          "lastName": "Tester",
+          "party": "D",
+          "state": "MT",
+          "url": "https://api.congress.gov/v3/member/T000464?format=json"
+        }
+      ],
+      "title": "A bill to improve the emergency management capabilities of the Department of Veterans Affairs, and for other purposes.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3341/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-16T09:46:34Z",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z"
+    }
+  },
+  {
+    "congress": 118,
+    "latestAction": {
+      "actionDate": "2023-11-15",
+      "text": "Read twice and referred to the Committee on Veterans' Affairs."
+    },
+    "number": "3339",
+    "originChamber": "Senate",
+    "originChamberCode": "S",
+    "title": "A bill to prohibit former members of the Armed Forces from accepting employment in positions involving training, consulting, advising, or instructing any government-associated individual or entity from the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, or the Syrian Arab Republic.",
+    "type": "S",
+    "updateDate": "2023-11-16",
+    "updateDateIncludingText": "2023-11-16T09:46:33Z",
+    "url": "https://api.congress.gov/v3/bill/118/s/3339?format=json",
+    "billData": {
+      "actions": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3339/actions?format=json"
+      },
+      "committees": {
+        "count": 1,
+        "url": "https://api.congress.gov/v3/bill/118/s/3339/committees?format=json"
+      },
+      "congress": 118,
+      "cosponsors": {
+        "count": 2,
+        "countIncludingWithdrawnCosponsors": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3339/cosponsors?format=json"
+      },
+      "introducedDate": "2023-11-15",
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": "3339",
+      "originChamber": "Senate",
+      "sponsors": [
+        {
+          "bioguideId": "S001181",
+          "firstName": "Jeanne",
+          "fullName": "Sen. Shaheen, Jeanne [D-NH]",
+          "isByRequest": "N",
+          "lastName": "Shaheen",
+          "party": "D",
+          "state": "NH",
+          "url": "https://api.congress.gov/v3/member/S001181?format=json"
+        }
+      ],
+      "title": "A bill to prohibit former members of the Armed Forces from accepting employment in positions involving training, consulting, advising, or instructing any government-associated individual or entity from the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, or the Syrian Arab Republic.",
+      "titles": {
+        "count": 2,
+        "url": "https://api.congress.gov/v3/bill/118/s/3339/titles?format=json"
+      },
+      "type": "S",
+      "updateDate": "2023-11-16T09:46:33Z",
+      "updateDateIncludingText": "2023-11-16T09:46:33Z"
+    }
+  }
+]

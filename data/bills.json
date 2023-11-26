@@ -1,0 +1,312 @@
+{
+  "bills": [
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Signed by President."
+      },
+      "number": "6363",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Further Continuing Appropriations and Other Extensions Act, 2024",
+      "type": "HR",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T14:32:29Z",
+      "url": "https://api.congress.gov/v3/bill/118/hr/6363?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Message on Senate action sent to the House."
+      },
+      "number": "3000",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "Armenian Protection Act of 2023",
+      "type": "S",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:58:55Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3000?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Message on Senate action sent to the House."
+      },
+      "number": "1510",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "GAO Inspector General Parity Act",
+      "type": "S",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:28:58Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/1510?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Message on Senate action sent to the House."
+      },
+      "number": "106",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "Commitment to Veteran Support and Outreach Act",
+      "type": "S",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T18:43:49Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/106?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Introduced in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time."
+      },
+      "number": "3343",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to provide that United States citizens evacuating Israel shall not be required to reimburse the United States Government, and for other purposes.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3343?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5554)"
+      },
+      "number": "471",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution expressing support for the goals of National Adoption Day and National Adoption Month by promoting national awareness of adoption and the children awaiting families, celebrating children and families involved in adoption, and encouraging the people of the United States to secure safety, permanency, and well-being for all children.",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:28:58Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/471?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553-5554)"
+      },
+      "number": "470",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution designating November 16th, 2023, as \"National Rural Health Day\".",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:28:58Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/470?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+      },
+      "number": "469",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution commending and congratulating the Las Vegas Aces basketball team on winning the 2023 Women's National Basketball Association Championship.",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:28:58Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/469?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-16",
+        "text": "Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent. (consideration: CR S5558; text: CR S5553)"
+      },
+      "number": "468",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution designating November 26, 2023, as \"Drive Safer Sunday\".",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:28:58Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/468?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Senate appointed conferees. Reed; Shaheen; Gillibrand; Blumenthal; Hirono; Kaine; King; Warren; Peters; Manchin; Duckworth; Rosen; Kelly; Wicker; Fischer; Cotton; Rounds; Ernst; Sullivan; Cramer; Scott FL; Tuberville; Mullin; Budd; Schmitt."
+      },
+      "number": "2670",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "National Defense Authorization Act for Fiscal Year 2024",
+      "type": "HR",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T14:58:59Z",
+      "url": "https://api.congress.gov/v3/bill/118/hr/2670?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Referred to the Committee on the Judiciary. (text: CR S5552-5553)"
+      },
+      "number": "467",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution recognizing the first commemoration of the anti-LGBTQ+ attack that occurred on November 19-20, 2022, at Club Q, an LGBTQ+ bar in Colorado Springs, Colorado.",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:13:45Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/467?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Failed of passage in Senate by Yea-Nay Vote. 49 - 50. Record Vote Number: 310."
+      },
+      "number": "43",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A joint resolution providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Education relating to \"Improving Income Driven Repayment for the William D. Ford Federal Direct Loan Program and the Federal Family Education Loan (FFEL) Program\".",
+      "type": "SJRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T14:28:51Z",
+      "url": "https://api.congress.gov/v3/bill/118/sjres/43?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Referred to the Committee on Foreign Relations. (text: CR S5551-5552)"
+      },
+      "number": "466",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution calling upon the United States Senate to give its advice and consent to the ratification of the United Nations Convention on the Law of the Sea.",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:13:45Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/466?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "3342",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to establish the Commercial Space Activity Advisory Committee, and for other purposes.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3342?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": "3341",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to improve the emergency management capabilities of the Department of Veterans Affairs, and for other purposes.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3341?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Veterans' Affairs."
+      },
+      "number": "3339",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to prohibit former members of the Armed Forces from accepting employment in positions involving training, consulting, advising, or instructing any government-associated individual or entity from the People's Republic of China, the Russian Federation, the Islamic Republic of Iran, the Democratic People's Republic of Korea, the Republic of Cuba, or the Syrian Arab Republic.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:33Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3339?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "3340",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to establish the Global Climate Change Resilience Strategy, to authorize the admission of climate-displaced persons into the United States, and for other purposes.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:34Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3340?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Referred to the Committee on the Judiciary. (text: CR S5550-5551)"
+      },
+      "number": "465",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A resolution expressing support for the designation of November 20, 2023, through December 20, 2023, as \"National Survivors of Homicide Victims Awareness Month\".",
+      "type": "SRES",
+      "updateDate": "2023-11-17",
+      "updateDateIncludingText": "2023-11-17T15:13:45Z",
+      "url": "https://api.congress.gov/v3/bill/118/sres/465?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "3337",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to establish national data privacy standards in the United States, and for other purposes.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:33Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3337?format=json"
+    },
+    {
+      "congress": 118,
+      "latestAction": {
+        "actionDate": "2023-11-15",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "3338",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to provide for a National Disaster Safety Board.",
+      "type": "S",
+      "updateDate": "2023-11-16",
+      "updateDateIncludingText": "2023-11-16T09:46:33Z",
+      "url": "https://api.congress.gov/v3/bill/118/s/3338?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 402535,
+    "next": "https://api.congress.gov/v3/bill?offset=20&limit=20&format=json"
+  },
+  "request": {
+    "contentType": "application/json",
+    "format": "json"
+  }
+}
