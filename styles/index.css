@@ -67,6 +67,18 @@ body {
   pointer-events: none;
 }
 
+#div_partyChooseOptionsContainer {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+#div_partyChooseOptionsContainer button {
+  font-size: 1.4rem;
+}
+
 /* Screen controls end */
 
 .screen-extents {

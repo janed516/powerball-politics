@@ -188,6 +188,34 @@ export default class App {
       findRef_div_interveneControlsContainer
     );
 
+    // PARTY_CHOOSE_PANE
+    let div_partyChoosePane;
+    function findPartyChoosePaneNode(nodes) {
+      div_partyChoosePane = nodes[0];
+    }
+    that.ctrlAttach(ctrls, "PARTY_CHOOSE_PANE", findPartyChoosePaneNode);
+
+    // PARTY_CHOOSE_OPTIONS_CONTAINER
+    let div_partyChooseOptionsContainer;
+    function findPartyChooseOptionsContainer(nodes) {
+      div_partyChooseOptionsContainer = nodes[0];
+      const partyOptions =
+        div_partyChooseOptionsContainer.getElementsByTagName("button");
+      [...partyOptions].forEach((btn) => {
+        btn.addEventListener("click", onClk_partySelectButton);
+      });
+    }
+    that.ctrlAttach(
+      ctrls,
+      "PARTY_CHOOSE_OPTIONS_CONTAINER",
+      findPartyChooseOptionsContainer
+    );
+
+    function onClk_partySelectButton(evt) {
+      that.setPartyChoice(evt.target.innerHTML);
+      that.#setupNewGame();
+    }
+
     // GAME_RESET
     function onClk_gameReset(nodes) {
       nodes[0].addEventListener("pointerup", () => that.resetGame());
@@ -260,34 +288,6 @@ export default class App {
   }
 
   //-----------------------------------------------------------------------------
-
-  async readFromUserPrefs() {
-    let str = localStorage.getItem(LOCAL_STORAGE_KEY_USERPREFS);
-    if (!str) {
-      let tmpUserPrefs = JSON.parse(JSON.stringify(GameObjects.USER_PREFS));
-      tmpUserPrefs.userPartyChoice = "purple";
-      str = JSON.stringify(tmpUserPrefs);
-      this.#currentGame.userPrefs = JSON.parse(str);
-      await this.writeToUserPrefs();
-    }
-    this.#currentGame.userPrefs = JSON.parse(str);
-  }
-
-  async writeToUserPrefs() {
-    localStorage.setItem(
-      LOCAL_STORAGE_KEY_USERPREFS,
-      JSON.stringify(this.#currentGame.userPrefs)
-    );
-  }
-
-  async setPartyChoice(newChoice) {
-    this.#currentGame.userPrefs.userPartyChoice = newChoice;
-    await this.writeToUserPrefs();
-  }
-
-  async onExitCleanUp() {
-    localStorage.removeItem(LOCAL_STORAGE_KEY_USERPREFS);
-  }
 
   tickIntervalCb;
 
@@ -378,11 +378,24 @@ export default class App {
 
     window.addEventListener("beforeunload", this.onExitCleanUp);
 
-    // let pg = pixiGfx.getDebugPoint();
-    // let x = this.#app.renderer.width / 2;
-    // let y = this.#app.renderer.height / 2;
-    // pg.position.set(x, y);
-    // this.#graphicRootContainer.addChild(pg);
+    // read url param for cheat mode and store to userPrefs
+    await this.readFromUserPrefs();
+    const urlParams = new URLSearchParams(window.location.search);
+    const cheatParam = urlParams.has("FRIENDS");
+    this.#userPrefs.isCheatMode = cheatParam;
+    await this.writeToUserPrefs();
+
+    if (this.#userPrefs.isCheatMode) {
+      // update to speed up things
+      this.#tickSpeed /= 4;
+      this.updateTickInterval.call(this);
+    }
+
+    if (!this.#userPrefs.userPartyChoice) {
+      // show party pick screen and then continue in callback
+      div_partyChoosePane.classList.add("visible");
+      div_partyChoosePane.classList.remove("hidden");
+    }
   }
 
   startAnimation = async function () {
@@ -412,8 +425,39 @@ export default class App {
   */
   //-----------------------------------------------------------------------------
 
+  async readFromUserPrefs() {
+    let str = localStorage.getItem(LOCAL_STORAGE_KEY_USERPREFS);
+    if (!str) {
+      let tmpUserPrefs = JSON.parse(JSON.stringify(GameObjects.USER_PREFS));
+      // tmpUserPrefs.userPartyChoice = "purple";
+      str = JSON.stringify(tmpUserPrefs);
+      this.#userPrefs = JSON.parse(str);
+      await this.writeToUserPrefs();
+    }
+    this.#userPrefs = JSON.parse(str);
+  }
+
+  async writeToUserPrefs() {
+    localStorage.setItem(
+      LOCAL_STORAGE_KEY_USERPREFS,
+      JSON.stringify(this.#userPrefs)
+    );
+  }
+
+  async onExitCleanUp() {
+    localStorage.removeItem(LOCAL_STORAGE_KEY_USERPREFS);
+  }
+
+  async setPartyChoice(newChoice) {
+    this.#userPrefs.userPartyChoice = newChoice;
+    await this.writeToUserPrefs();
+    div_partyChoosePane.classList.add("hidden");
+    div_partyChoosePane.classList.remove("visible");
+  }
+
   #tickSpeed = 30;
   #currentGame = null;
+  #userPrefs = null;
   #currentElapsedTime = null;
 
   #disposeCurrentGame = async function () {
@@ -453,24 +497,6 @@ export default class App {
     this.#currentGame.votersInLimbo = new Map();
     this.#currentGame.cumulativeVoterStats = {};
 
-    // read url param for cheat mode and store to userPrefs
-    await this.readFromUserPrefs();
-    const urlParams = new URLSearchParams(window.location.search);
-    const cheatParam = urlParams.has("FRIENDS");
-    this.#currentGame.userPrefs.isCheatMode = cheatParam;
-    await this.writeToUserPrefs();
-
-    if (this.#currentGame.userPrefs.isCheatMode) {
-      // update to speed up things
-      this.#tickSpeed /= 4;
-      this.updateTickInterval.call(this);
-    }
-
-    if (!this.#currentGame.userPrefs) {
-      // show party pick screen and then continue in callback
-      // cb: setPartyChoice(newChoice)
-    }
-
     this.#currentGame.cumulativeVoterStats[GameObjects.POLL_TOPIC.billA] = 0;
     this.#currentGame.cumulativeVoterStats[GameObjects.POLL_TOPIC.billB] = 0;
     this.#currentGame.cumulativeVoterStats[GameObjects.POLL_TOPIC.billC] = 0;
@@ -496,8 +522,7 @@ export default class App {
       partyObj.funds = Math.round(
         GameObjects.CONSTANTS.BUDGET_BASE * utils.seededRandomFloat(1.1, 0.9)
       );
-      partyObj.isUser =
-        this.#currentGame.userPrefs.userPartyChoice === partyObj.label;
+      partyObj.isUser = this.#userPrefs.userPartyChoice === partyObj.label;
 
       let pixiGfx_party = pixiGfx.getGfx_party({
         color: partyObj.color,
@@ -743,7 +768,7 @@ export default class App {
   refreshToInterveneControls() {
     let that = this;
     let p = that.#currentGame.parties.find(
-      (p) => p.label === this.#currentGame.userPrefs.userPartyChoice
+      (p) => p.label === this.#userPrefs.userPartyChoice
     );
 
     that.#refs.div_interveneControlsContainer.replaceChildren();
@@ -828,7 +853,7 @@ export default class App {
   updateFromInterveneControls() {
     let that = this;
     let p = that.#currentGame.parties.find(
-      (p) => p.label === this.#currentGame.userPrefs.userPartyChoice
+      (p) => p.label === this.#userPrefs.userPartyChoice
     );
     p.campaignPriorities[GameObjects.POLL_TOPIC.billA] =
       this.newPrioritiesValsBuffer[GameObjects.POLL_TOPIC.billA];

@@ -52,6 +52,25 @@
     </div>
   </div>
 
+  <div id="div_partyChoosePane" class="overlay-pane center-float hidden">
+    <div class="vertical-distribute" style="align-items: center; overflow-y: auto;">
+      <h2>
+        Choose your party
+      </h2>
+      <p>You will manage the campaign funds for the party.</p>
+      <div id="div_partyChooseOptionsContainer">
+        <button>🦴 Bone Party</button>
+        <button>🌸 Flower Party</button>
+        <button>🌵 Cactus Party</button>
+        <button>🧀 Cheese Party</button>
+        <button>🦋 Butterfly Party</button>
+        <button>🎒 Backpack Party</button>
+        <button>🥁 Drum Party</button>
+        <button>📺 Television Party</button>
+      </div>
+    </div>
+  </div>
+
   <div id="div_intervenePane" class="overlay-pane center-float hidden">
     <div class="vertical-distribute" style="align-items: center; overflow-y: auto;">
       <h2>
@@ -73,6 +92,8 @@
           { ctrl: "INTERVENE_PANE_TOGGLE", id: "btn_intervenePaneToggle" },
           { ctrl: "INTERVENE_PANE", id: "div_intervenePane" },
           { ctrl: "INTERVENE_CONTROLS_CONTAINER", id: "div_interveneControlsContainer" },
+          { ctrl: "PARTY_CHOOSE_PANE", id: "div_partyChoosePane" },
+          { ctrl: "PARTY_CHOOSE_OPTIONS_CONTAINER", id: "div_partyChooseOptionsContainer" },
 
           { ctrl: "GAME_PLAY", id: "btn_play" },
           { ctrl: "GAME_PAUSE", id: "btn_pause" },

@@ -48,7 +48,8 @@ Voters express their support for each bill on a scale of 0 to 100 (low to high).
 For voter decision on whether they join the party or not goes by following calculation:  
 Let's say voter-A rates bill A at 70, bill B at 10 and bill C at 40.  
 At the same time party-1 has allocated 50% of their budget to bill A, 20% of their budget to bill B and 30% of their budget to bill C.  
-The voter's alignment with this party is given by `(0.7 * 0.5) + (0.1 * 0.2) + (0.4 * 0.3) = (0.35 + 0.02 + 0.12) = 0.49`  
+The voter's alignment with this party is given by:  
+`(0.7 * 0.5) + (0.1 * 0.2) + (0.4 * 0.3) = (0.35 + 0.02 + 0.12) = 0.49`  
 If the alignment is greater than 0.7, the voter will support the party.
 
 ### Party Funds Allocation
@@ -109,5 +110,3 @@ Only applies to freeVoters (i.e. not in limbo, nor orbiting)
 #### 🥁 Drum Party
 
 #### 📺 Television Party
-
-#### 💊 Pill Party

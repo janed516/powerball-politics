@@ -57,7 +57,6 @@ export let GAME_STATE = {
   isPaused: true,
   cumulativeVoterStats: {},
   parties: [],
-  userPrefs: null,
   freeVoters: null, // use a Map after init to keep track of freeVoters
   votersInLimbo: null, // use a Map after init to keep track of votersInLimbo
 };
